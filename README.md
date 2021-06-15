@@ -1,7 +1,15 @@
-# vimrc_Python3_Dev
-Contains information and a .vimrc file related to developing python3 with vim
+# **Welcome to my .vimrc file!**
+I've built this config through a few years of basic dev on vim to get a standard config for easy daily use.\
+Below you can find my package list that I use, and some basic information on vim such as keybinds.
 
-# **Some basic vim hotkeys for moving include,**
+# **Package List**
+
+
+# **How to install packages**
+Install plugins in this directory,\
+`~/.vim/pack/pluginfoldername/ start/pluginname`
+
+# **Some basic vim hotkeys for moving include**
 * h  - Move left
 * j  - Move down
 * k  - Move up
@@ -16,6 +24,5 @@ Contains information and a .vimrc file related to developing python3 with vim
 * G  - Move to end of file
 
 
-# **Some more advanced things,**
-
-# **What this .vimrc contains,** 
+# **Some more advanced things**
+ 
