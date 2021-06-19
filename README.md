@@ -3,6 +3,8 @@ I've built this config through a few years of basic dev on vim to get a standard
 Below you can find my package list that I use, and some basic information on vim such as keybinds.
 
 # **Package List**
+Plugin 'vim-syntastic/syntastic'\
+Plugin 'arcticicestudio/nord-vim'
 
 
 # **How to install packages**

@@ -1,3 +1,17 @@
+" Sets up our plugin manager, Vundle.
+set nocompatible
+filetype off
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'arcticicestudio/nord-vim'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+
 " PEP 8 Standards for python dev
 au BufNewFile,BufRead *.py
     \ set tabstop=4
@@ -20,8 +34,9 @@ set encoding=utf-8
 " Enable clipboard sharing
 set clipboard=unnamed
 
-set nocompatible
-filetype off
+" Settings for syntax highlighting
+syntax on
+colorscheme nord
 
 " Line Numbering
 set nu
